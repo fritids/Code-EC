@@ -1,0 +1,597 @@
+
+2012-11-05 21:11:57 000000 --  **** Start logging **** mp_mail *** level : 8191 **** (5.3) **** /wp-e-commerce/wp-admin/options-general.php?page=mailpress_settings
+2012-11-05 21:11:57 000000 --  
+
+ ------------------- start of mail -------------------   
+ From : Jon McDonald <jon@onewebcentric.com>  
+ To   : Herrro <jon@onewebcentric.com>  
+ Subject : Connection test : WP E Commerce Testing - Template : none 
+   ------------------- plaintext -------------------  
+ WP E Commerce Testing
+Just another WordPress site
+
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+! Connection test : WP E Commerce Testing - Template : none !
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+November 5, 2012
+
+
+
+This is a test message of MailPress from http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=8&co=p&us=3e557daf2b17da338d359d3017169f04
+
+
+
+							this mail is brought to you by MailPress
+
+View [http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=6&co=p&us=3e557daf2b17da338d359d3017169f04]
+Unsubscribe [http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=10&co=p&us=3e557daf2b17da338d359d3017169f04] 
+
+ ------------------- text/html -------------------  
+ <!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>WP E Commerce Testing > Connection test : WP E Commerce Testing - Template : none > jon@onewebcentric.com</title>
+<style type='text/css' media='all'>
+/*
+Theme Name: MailPress template
+Description: theme used as template
+*/
+
+
+td.mp_twitter_link a.mp_twitter_date {
+text-decoration: none;
+color: #999;
+}
+td.mp_twitter_link a.mp_twitter_date:hover {
+text-decoration: underline !important;
+color: #777 !important;
+}
+
+td.mp_twitter_link ul li a b {
+text-decoration: none;
+color: #999;
+}
+td.mp_twitter_link ul li a:hover b {
+text-decoration: underline !important;
+color: #777 !important;
+}
+
+td.mp_twitter_link a {
+text-decoration: none;
+color: #666;
+}
+td.mp_twitter_link a:hover {
+text-decoration: underline !important;
+color: #444 !important;
+}
+
+a.mp_twitter_author_id:hover {
+text-decoration: underline !important;
+color: #000 !important;
+}</style>
+<style type='text/css' media='all'>
+/*
+Theme Name: MailPress Twenty Ten
+Theme URI: 
+Description: theme from TwentyTen wp theme.
+Version: 1.0
+Author: Andre Renaut
+Author URI: http://www.mailpress.org
+Template: _template
+*/
+a.more-link {color:#06C;}
+</style>
+	</head>	<body>
+		<div style="color:#666;font-size:12px;line-height:18px;background:none repeat scroll 0 0 #F1F1F1;vertical-align:baseline;font-family:Georgia,'Bitstream Charter',serif;">
+			<div style="margin:0 auto;border:none;padding:0 20px;width:700px;background:none repeat scroll 0 0 #FFF;">
+			<div style="background:none repeat scroll 0 0 transparent;border:0 none;clear:both;color:#666;font-family:Verdana,Arial,sans-serif;font-size:10px;font-style:italic;line-height:5px;margin:0;padding:5px 0;text-align:center;vertical-align:baseline;line-height:10px;">
+				Email not displaying correctly ? <a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=6&co=h&us=3e557daf2b17da338d359d3017169f04' style="color:#666;color:#555;text-decoration:underline;">View it in your browser</a>
+			</div>
+				<div style="margin:20px 0 0;border:none;padding:0;">
+					<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+						<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+							<table style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;" width='100%'>
+								<tr>
+									<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+										<h1 style="margin:0 0 17px;border:none;padding:0;width:500px;font-size:30px;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;line-height:36px;">
+											<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+												<a style="color:#000;font-weight:bold;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=7&co=h&us=3e557daf2b17da338d359d3017169f04" title="WP E Commerce Testing" rel="home">
+WP E Commerce Testing												</a>
+											</span>
+										</h1>
+									</td>
+									<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;text-align:right;width:100%;width:100%;">
+										<div style="margin:14px 0 18px;border:none;padding:0;padding-right:30px;color:#666;font-size:12px;font-style:italic;width:95%;" >
+Just another WordPress site										</div>
+									</td>
+								</tr>
+							</table>
+							<img src="http://localhost:8888/wp-e-commerce/wp-content/themes/twentyeleven/images/headers/trolley.jpg"  width="700" height="147" alt="img" style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;border-top:4px solid #000000;border-bottom:18px solid #000000;display:block;" />
+						</div>
+					</div>
+				</div>
+				<div style="margin:0 auto;border:none;padding:10px 0 0;width:100%;overflow:hidden;">
+					<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+						<div style="border:none;padding:0;color:#444;font-size:16px;line-height:24px;">
+<!-- end header --><div style="margin:0 0 10px;border:none;padding:0;">
+	<div>
+		<h2 style="margin:5px 0 0;border:none;padding:0;color:#000;font-size:21px;font-weight:bold;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+Connection test : WP E Commerce Testing - Template : none		</h2>
+	</div>
+			
+	<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;margin-right:68px;color:#888;font-size:12px;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+		<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+Generated on November 5, 2012		</span>
+	</div>
+			
+	<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">	
+<div style='font-family: verdana, geneva;'>
+<p>This is a <blink>test</blink> message of  <b>MailPress</b>  from <a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=8&co=h&us=3e557daf2b17da338d359d3017169f04'>WP E Commerce Testing</a>. </p>
+</div>
+	</div>
+
+</div><!-- start footer -->
+						</div>
+					</div>
+				</div>
+				<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+					<div style="margin:0 auto;margin:4px auto 0;border:none;border-top:4px solid #000000;padding:10px 0 5px;width:100%;font-size:12px;overflow:hidden;">
+						<table style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+							<tr>
+								<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+									<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:350px;font-weight:bold;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+<a style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;color:#000000;font-size:12px;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=7&co=h&us=3e557daf2b17da338d359d3017169f04" title="WP E Commerce Testing" rel="home">WP E Commerce Testing</a>
+									</div>
+								</td>
+								<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+									<table style='width:auto;float:right'>
+										<tr>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;color:#666;font-size:12px;font-style:italic;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+Proudly mailed by 
+												</span>
+											</td>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<img src='images/mailpress.png' style="margin:0 4px;border:none;padding:0;" alt='img' />
+											</td>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<a style="color:#888;font-size:12px;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=9&co=h&us=3e557daf2b17da338d359d3017169f04" title="The WordPress Mailing plugin">
+MailPress
+												</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			<div style="background:none repeat scroll 0 0 transparent;border:0 none;clear:both;color:#666;font-family:Verdana,Arial,sans-serif;font-size:10px;font-style:italic;line-height:5px;margin:0;padding:5px 0;text-align:center;vertical-align:baseline;line-height:10px;">
+				<a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=10&co=h&us=3e557daf2b17da338d359d3017169f04'  style="color:#666;color:#555;text-decoration:underline;">Manage your subscriptions</a>
+			</div>
+			</div>
+		</div>
+	
+<img src='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=o&mm=11&co=h&us=3e557daf2b17da338d359d3017169f04' alt='' style='margin:0;padding:0;border:none;' /></body>
+</html> 
+
+ ------------------ end of mail ------------------  
+
+
+2012-11-05 21:11:57 000000 -- MAILPRESS [NOTICE] - Image found : wp-content/themes/twentyeleven/images/headers/trolley.jpg
+2012-11-05 21:11:57 000000 -- MAILPRESS [NOTICE] - Image found : wp-content/plugins/mailpress/mp-content/themes/twentyten/images/mailpress.png
+2012-11-05 21:11:58 000000 -- **** Empty user/password for SMTP connection ****
+2012-11-05 21:11:58 000000 -- MAILPRESS [NOTICE] - Disconnecting from wp-ecommerce (MP_Mail)
+2012-11-05 21:11:58 000000 -- MAILPRESS [NOTICE] - Disconnected (MP_Mail)
+2012-11-05 21:11:58 000000 -- PHP [E_WARNING] 2 : stream_socket_client() [<a href='function.stream-socket-client'>function.stream-socket-client</a>]: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Applications/MAMP/htdocs/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/Swiftmailer/classes/Swift/Transport/StreamBuffer.php at line 263 
+2012-11-05 21:11:58 000000 -- PHP [E_WARNING] 2 : stream_socket_client() [<a href='function.stream-socket-client'>function.stream-socket-client</a>]: unable to connect to :0 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Applications/MAMP/htdocs/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/Swiftmailer/classes/Swift/Transport/StreamBuffer.php at line 263 
+2012-11-05 21:11:58 000000 -- SWIFTMAILER [ERROR] - There was a problem sending with SMTP :
+
+Connection could not be established with host  [php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known #0]
+
+
+2012-11-05 21:11:58 000000 -- MAILPRESS [NOTICE] - Connecting to wp-ecommerce (MP_Mail sending error :  SMTP)
+2012-11-05 21:11:58 000000 -- MAILPRESS [NOTICE] - Connected (MP_Mail sending error :  SMTP)
+2012-11-05 21:11:58 000000 -- 
+2012-11-05 21:11:58 000000 -- MAILPRESS [ERROR] - *** Mail could not be sent ***
+2012-11-05 21:11:58 000000 -- 
+2012-11-05 21:11:58 000000 --  **** End   logging **** mp_mail *** level : 8191 **** status : FALSE 
+
+2012-11-05 21:12:10 000000 --  **** Start logging **** mp_mail *** level : 8191 **** (5.3) **** /wp-e-commerce/wp-admin/options-general.php?page=mailpress_settings
+2012-11-05 21:12:10 000000 --  
+
+ ------------------- start of mail -------------------   
+ From : Jon McDonald <jon@onewebcentric.com>  
+ To   : Herrro <jon@onewebcentric.com>  
+ Subject : Connection test : WP E Commerce Testing - Template : none 
+   ------------------- plaintext -------------------  
+ WP E Commerce Testing
+Just another WordPress site
+
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+! Connection test : WP E Commerce Testing - Template : none !
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+November 5, 2012
+
+
+
+This is a test message of MailPress from http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=15&co=p&us=3e557daf2b17da338d359d3017169f04
+
+
+
+							this mail is brought to you by MailPress
+
+View [http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=13&co=p&us=3e557daf2b17da338d359d3017169f04]
+Unsubscribe [http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=17&co=p&us=3e557daf2b17da338d359d3017169f04] 
+
+ ------------------- text/html -------------------  
+ <!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>WP E Commerce Testing > Connection test : WP E Commerce Testing - Template : none > jon@onewebcentric.com</title>
+<style type='text/css' media='all'>
+/*
+Theme Name: MailPress template
+Description: theme used as template
+*/
+
+
+td.mp_twitter_link a.mp_twitter_date {
+text-decoration: none;
+color: #999;
+}
+td.mp_twitter_link a.mp_twitter_date:hover {
+text-decoration: underline !important;
+color: #777 !important;
+}
+
+td.mp_twitter_link ul li a b {
+text-decoration: none;
+color: #999;
+}
+td.mp_twitter_link ul li a:hover b {
+text-decoration: underline !important;
+color: #777 !important;
+}
+
+td.mp_twitter_link a {
+text-decoration: none;
+color: #666;
+}
+td.mp_twitter_link a:hover {
+text-decoration: underline !important;
+color: #444 !important;
+}
+
+a.mp_twitter_author_id:hover {
+text-decoration: underline !important;
+color: #000 !important;
+}</style>
+<style type='text/css' media='all'>
+/*
+Theme Name: MailPress Twenty Ten
+Theme URI: 
+Description: theme from TwentyTen wp theme.
+Version: 1.0
+Author: Andre Renaut
+Author URI: http://www.mailpress.org
+Template: _template
+*/
+a.more-link {color:#06C;}
+</style>
+	</head>	<body>
+		<div style="color:#666;font-size:12px;line-height:18px;background:none repeat scroll 0 0 #F1F1F1;vertical-align:baseline;font-family:Georgia,'Bitstream Charter',serif;">
+			<div style="margin:0 auto;border:none;padding:0 20px;width:700px;background:none repeat scroll 0 0 #FFF;">
+			<div style="background:none repeat scroll 0 0 transparent;border:0 none;clear:both;color:#666;font-family:Verdana,Arial,sans-serif;font-size:10px;font-style:italic;line-height:5px;margin:0;padding:5px 0;text-align:center;vertical-align:baseline;line-height:10px;">
+				Email not displaying correctly ? <a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=13&co=h&us=3e557daf2b17da338d359d3017169f04' style="color:#666;color:#555;text-decoration:underline;">View it in your browser</a>
+			</div>
+				<div style="margin:20px 0 0;border:none;padding:0;">
+					<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+						<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+							<table style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;" width='100%'>
+								<tr>
+									<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+										<h1 style="margin:0 0 17px;border:none;padding:0;width:500px;font-size:30px;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;line-height:36px;">
+											<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+												<a style="color:#000;font-weight:bold;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=14&co=h&us=3e557daf2b17da338d359d3017169f04" title="WP E Commerce Testing" rel="home">
+WP E Commerce Testing												</a>
+											</span>
+										</h1>
+									</td>
+									<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;text-align:right;width:100%;width:100%;">
+										<div style="margin:14px 0 18px;border:none;padding:0;padding-right:30px;color:#666;font-size:12px;font-style:italic;width:95%;" >
+Just another WordPress site										</div>
+									</td>
+								</tr>
+							</table>
+							<img src="http://localhost:8888/wp-e-commerce/wp-content/themes/twentyeleven/images/headers/chessboard.jpg"  width="700" height="147" alt="img" style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;border-top:4px solid #000000;border-bottom:18px solid #000000;display:block;" />
+						</div>
+					</div>
+				</div>
+				<div style="margin:0 auto;border:none;padding:10px 0 0;width:100%;overflow:hidden;">
+					<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+						<div style="border:none;padding:0;color:#444;font-size:16px;line-height:24px;">
+<!-- end header --><div style="margin:0 0 10px;border:none;padding:0;">
+	<div>
+		<h2 style="margin:5px 0 0;border:none;padding:0;color:#000;font-size:21px;font-weight:bold;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+Connection test : WP E Commerce Testing - Template : none		</h2>
+	</div>
+			
+	<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;margin-right:68px;color:#888;font-size:12px;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+		<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+Generated on November 5, 2012		</span>
+	</div>
+			
+	<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">	
+<div style='font-family: verdana, geneva;'>
+<p>This is a <blink>test</blink> message of  <b>MailPress</b>  from <a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=15&co=h&us=3e557daf2b17da338d359d3017169f04'>WP E Commerce Testing</a>. </p>
+</div>
+	</div>
+
+</div><!-- start footer -->
+						</div>
+					</div>
+				</div>
+				<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+					<div style="margin:0 auto;margin:4px auto 0;border:none;border-top:4px solid #000000;padding:10px 0 5px;width:100%;font-size:12px;overflow:hidden;">
+						<table style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+							<tr>
+								<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+									<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:350px;font-weight:bold;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+<a style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;color:#000000;font-size:12px;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=14&co=h&us=3e557daf2b17da338d359d3017169f04" title="WP E Commerce Testing" rel="home">WP E Commerce Testing</a>
+									</div>
+								</td>
+								<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+									<table style='width:auto;float:right'>
+										<tr>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;color:#666;font-size:12px;font-style:italic;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+Proudly mailed by 
+												</span>
+											</td>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<img src='images/mailpress.png' style="margin:0 4px;border:none;padding:0;" alt='img' />
+											</td>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<a style="color:#888;font-size:12px;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=16&co=h&us=3e557daf2b17da338d359d3017169f04" title="The WordPress Mailing plugin">
+MailPress
+												</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			<div style="background:none repeat scroll 0 0 transparent;border:0 none;clear:both;color:#666;font-family:Verdana,Arial,sans-serif;font-size:10px;font-style:italic;line-height:5px;margin:0;padding:5px 0;text-align:center;vertical-align:baseline;line-height:10px;">
+				<a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=17&co=h&us=3e557daf2b17da338d359d3017169f04'  style="color:#666;color:#555;text-decoration:underline;">Manage your subscriptions</a>
+			</div>
+			</div>
+		</div>
+	
+<img src='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=o&mm=18&co=h&us=3e557daf2b17da338d359d3017169f04' alt='' style='margin:0;padding:0;border:none;' /></body>
+</html> 
+
+ ------------------ end of mail ------------------  
+
+
+2012-11-05 21:12:10 000000 -- MAILPRESS [NOTICE] - Image found : wp-content/themes/twentyeleven/images/headers/chessboard.jpg
+2012-11-05 21:12:10 000000 -- MAILPRESS [NOTICE] - Image found : wp-content/plugins/mailpress/mp-content/themes/twentyten/images/mailpress.png
+2012-11-05 21:12:10 000000 -- **** Empty user/password for SMTP connection ****
+2012-11-05 21:12:10 000000 -- MAILPRESS [NOTICE] - Disconnecting from wp-ecommerce (MP_Mail)
+2012-11-05 21:12:10 000000 -- MAILPRESS [NOTICE] - Disconnected (MP_Mail)
+2012-11-05 21:12:10 000000 -- PHP [E_WARNING] 2 : stream_socket_client() [<a href='function.stream-socket-client'>function.stream-socket-client</a>]: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in /Applications/MAMP/htdocs/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/Swiftmailer/classes/Swift/Transport/StreamBuffer.php at line 263 
+2012-11-05 21:12:10 000000 -- PHP [E_WARNING] 2 : stream_socket_client() [<a href='function.stream-socket-client'>function.stream-socket-client</a>]: unable to connect to :0 (php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known) in /Applications/MAMP/htdocs/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/Swiftmailer/classes/Swift/Transport/StreamBuffer.php at line 263 
+2012-11-05 21:12:10 000000 -- SWIFTMAILER [ERROR] - There was a problem sending with SMTP :
+
+Connection could not be established with host  [php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known #0]
+
+
+2012-11-05 21:12:10 000000 -- MAILPRESS [NOTICE] - Connecting to wp-ecommerce (MP_Mail sending error :  SMTP)
+2012-11-05 21:12:10 000000 -- MAILPRESS [NOTICE] - Connected (MP_Mail sending error :  SMTP)
+2012-11-05 21:12:10 000000 -- 
+2012-11-05 21:12:10 000000 -- MAILPRESS [ERROR] - *** Mail could not be sent ***
+2012-11-05 21:12:10 000000 -- 
+2012-11-05 21:12:10 000000 --  **** End   logging **** mp_mail *** level : 8191 **** status : FALSE 
+
+2012-11-05 21:13:32 000000 --  **** Start logging **** mp_mail *** level : 8191 **** (5.3) **** /wp-e-commerce/wp-admin/options-general.php?page=mailpress_settings
+2012-11-05 21:13:32 000000 --  
+
+ ------------------- start of mail -------------------   
+ From : Jon McDonald <jon@onewebcentric.com>  
+ To   : Herrro <jon@onewebcentric.com>  
+ Subject : Connection test : WP E Commerce Testing - Template : none 
+   ------------------- plaintext -------------------  
+ WP E Commerce Testing
+Just another WordPress site
+
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+! Connection test : WP E Commerce Testing - Template : none !
+* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+November 5, 2012
+
+
+
+This is a test message of MailPress from http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=22&co=p&us=3e557daf2b17da338d359d3017169f04
+
+
+
+							this mail is brought to you by MailPress
+
+View [http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=20&co=p&us=3e557daf2b17da338d359d3017169f04]
+Unsubscribe [http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=24&co=p&us=3e557daf2b17da338d359d3017169f04] 
+
+ ------------------- text/html -------------------  
+ <!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>WP E Commerce Testing > Connection test : WP E Commerce Testing - Template : none > jon@onewebcentric.com</title>
+<style type='text/css' media='all'>
+/*
+Theme Name: MailPress template
+Description: theme used as template
+*/
+
+
+td.mp_twitter_link a.mp_twitter_date {
+text-decoration: none;
+color: #999;
+}
+td.mp_twitter_link a.mp_twitter_date:hover {
+text-decoration: underline !important;
+color: #777 !important;
+}
+
+td.mp_twitter_link ul li a b {
+text-decoration: none;
+color: #999;
+}
+td.mp_twitter_link ul li a:hover b {
+text-decoration: underline !important;
+color: #777 !important;
+}
+
+td.mp_twitter_link a {
+text-decoration: none;
+color: #666;
+}
+td.mp_twitter_link a:hover {
+text-decoration: underline !important;
+color: #444 !important;
+}
+
+a.mp_twitter_author_id:hover {
+text-decoration: underline !important;
+color: #000 !important;
+}</style>
+<style type='text/css' media='all'>
+/*
+Theme Name: MailPress Twenty Ten
+Theme URI: 
+Description: theme from TwentyTen wp theme.
+Version: 1.0
+Author: Andre Renaut
+Author URI: http://www.mailpress.org
+Template: _template
+*/
+a.more-link {color:#06C;}
+</style>
+	</head>	<body>
+		<div style="color:#666;font-size:12px;line-height:18px;background:none repeat scroll 0 0 #F1F1F1;vertical-align:baseline;font-family:Georgia,'Bitstream Charter',serif;">
+			<div style="margin:0 auto;border:none;padding:0 20px;width:700px;background:none repeat scroll 0 0 #FFF;">
+			<div style="background:none repeat scroll 0 0 transparent;border:0 none;clear:both;color:#666;font-family:Verdana,Arial,sans-serif;font-size:10px;font-style:italic;line-height:5px;margin:0;padding:5px 0;text-align:center;vertical-align:baseline;line-height:10px;">
+				Email not displaying correctly ? <a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=20&co=h&us=3e557daf2b17da338d359d3017169f04' style="color:#666;color:#555;text-decoration:underline;">View it in your browser</a>
+			</div>
+				<div style="margin:20px 0 0;border:none;padding:0;">
+					<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+						<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+							<table style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;" width='100%'>
+								<tr>
+									<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+										<h1 style="margin:0 0 17px;border:none;padding:0;width:500px;font-size:30px;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;line-height:36px;">
+											<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+												<a style="color:#000;font-weight:bold;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=21&co=h&us=3e557daf2b17da338d359d3017169f04" title="WP E Commerce Testing" rel="home">
+WP E Commerce Testing												</a>
+											</span>
+										</h1>
+									</td>
+									<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;text-align:right;width:100%;width:100%;">
+										<div style="margin:14px 0 18px;border:none;padding:0;padding-right:30px;color:#666;font-size:12px;font-style:italic;width:95%;" >
+Just another WordPress site										</div>
+									</td>
+								</tr>
+							</table>
+							<img src="http://localhost:8888/wp-e-commerce/wp-content/themes/twentyeleven/images/headers/lanterns.jpg"  width="700" height="147" alt="img" style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;border-top:4px solid #000000;border-bottom:18px solid #000000;display:block;" />
+						</div>
+					</div>
+				</div>
+				<div style="margin:0 auto;border:none;padding:10px 0 0;width:100%;overflow:hidden;">
+					<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+						<div style="border:none;padding:0;color:#444;font-size:16px;line-height:24px;">
+<!-- end header --><div style="margin:0 0 10px;border:none;padding:0;">
+	<div>
+		<h2 style="margin:5px 0 0;border:none;padding:0;color:#000;font-size:21px;font-weight:bold;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+Connection test : WP E Commerce Testing - Template : none		</h2>
+	</div>
+			
+	<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;margin-right:68px;color:#888;font-size:12px;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+		<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+Generated on November 5, 2012		</span>
+	</div>
+			
+	<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">	
+<div style='font-family: verdana, geneva;'>
+<p>This is a <blink>test</blink> message of  <b>MailPress</b>  from <a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=22&co=h&us=3e557daf2b17da338d359d3017169f04'>WP E Commerce Testing</a>. </p>
+</div>
+	</div>
+
+</div><!-- start footer -->
+						</div>
+					</div>
+				</div>
+				<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+					<div style="margin:0 auto;margin:4px auto 0;border:none;border-top:4px solid #000000;padding:10px 0 5px;width:100%;font-size:12px;overflow:hidden;">
+						<table style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:100%;width:100%;">
+							<tr>
+								<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+									<div style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:350px;font-weight:bold;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+<a style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;color:#000000;font-size:12px;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=21&co=h&us=3e557daf2b17da338d359d3017169f04" title="WP E Commerce Testing" rel="home">WP E Commerce Testing</a>
+									</div>
+								</td>
+								<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;">
+									<table style='width:auto;float:right'>
+										<tr>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<span style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;color:#666;font-size:12px;font-style:italic;font-family:'Helvetica Neue',Arial,Helvetica,'Nimbus Sans L',sans-serif;">
+Proudly mailed by 
+												</span>
+											</td>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<img src='images/mailpress.png' style="margin:0 4px;border:none;padding:0;" alt='img' />
+											</td>
+											<td style="border:none;border-spacing: 0px;border-collapse: collapse;margin:0;padding:0;width:auto;">
+												<a style="color:#888;font-size:12px;text-decoration:none;" href="http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=23&co=h&us=3e557daf2b17da338d359d3017169f04" title="The WordPress Mailing plugin">
+MailPress
+												</a>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			<div style="background:none repeat scroll 0 0 transparent;border:0 none;clear:both;color:#666;font-family:Verdana,Arial,sans-serif;font-size:10px;font-style:italic;line-height:5px;margin:0;padding:5px 0;text-align:center;vertical-align:baseline;line-height:10px;">
+				<a href='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=l&mm=24&co=h&us=3e557daf2b17da338d359d3017169f04'  style="color:#666;color:#555;text-decoration:underline;">Manage your subscriptions</a>
+			</div>
+			</div>
+		</div>
+	
+<img src='http://localhost:8888/wp-e-commerce/wp-content/plugins/mailpress/mp-includes/action.php?tg=o&mm=25&co=h&us=3e557daf2b17da338d359d3017169f04' alt='' style='margin:0;padding:0;border:none;' /></body>
+</html> 
+
+ ------------------ end of mail ------------------  
+
+
+2012-11-05 21:13:32 000000 -- MAILPRESS [NOTICE] - Image found : wp-content/themes/twentyeleven/images/headers/lanterns.jpg
+2012-11-05 21:13:32 000000 -- MAILPRESS [NOTICE] - Image found : wp-content/plugins/mailpress/mp-content/themes/twentyten/images/mailpress.png
+2012-11-05 21:13:32 000000 -- MAILPRESS [NOTICE] - Disconnecting from wp-ecommerce (MP_Mail)
+2012-11-05 21:13:32 000000 -- MAILPRESS [NOTICE] - Disconnected (MP_Mail)
+2012-11-05 21:13:32 000000 -- SWIFTMAILER [ERROR] - There was a problem sending with SENDMAIL :
+
+Expected response code 220 but got code "", with message ""
+
+
+2012-11-05 21:13:32 000000 -- MAILPRESS [NOTICE] - Connecting to wp-ecommerce (MP_Mail sending error :  SENDMAIL)
+2012-11-05 21:13:32 000000 -- MAILPRESS [NOTICE] - Connected (MP_Mail sending error :  SENDMAIL)
+2012-11-05 21:13:32 000000 -- 
+2012-11-05 21:13:32 000000 -- MAILPRESS [ERROR] - *** Mail could not be sent ***
+2012-11-05 21:13:32 000000 -- 
+2012-11-05 21:13:32 000000 --  **** End   logging **** mp_mail *** level : 8191 **** status : FALSE 
