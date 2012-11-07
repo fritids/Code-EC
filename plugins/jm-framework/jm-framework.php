@@ -3,7 +3,7 @@
 Plugin Name:  jm-framework
 Plugin URI:  http://onewebcentric.com
 Description:  Brings it all together
-Version:  .01
+Version:  .02
 Author URI:  http://onewebcentric.com
 Author:  Jon McDonald of OneWebCentric
 */
@@ -14,6 +14,6 @@ Author:  Jon McDonald of OneWebCentric
 define( 'JM_PATH', plugin_dir_path(__FILE__) );
 
 //Includes code to create sliders
-include_once( JM_PATH . '/classes/jm_event_functions.php');
+include_once( JM_PATH . '/classes/JM_EventManager.php');
 
 ?>
