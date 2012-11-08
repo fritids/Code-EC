@@ -1,0 +1,29 @@
+/* Opera fix? */
+.event-attendees
+{
+	list-style: none;
+}
+
+.event-author
+{
+	width: 300px !important;
+}
+
+.event-author-wrapper
+{
+	margin-top: -35px; 
+	margin-left: 20px; 
+	border: 0;
+}
+
+#event-content
+{
+	padding: 0;
+}
+
+.event-dates
+{
+	float:left; 
+	display:inline-block; 
+	padding: 0 !important;
+}

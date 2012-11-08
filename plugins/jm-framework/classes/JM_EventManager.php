@@ -8,6 +8,7 @@
  *  - Add user to a mailing list if they book for an event
  *
  * @author Jonathon McDonald <jon@onewebcentric.com>
+ * @since 0.1
  */
 class JM_EventManager
 {

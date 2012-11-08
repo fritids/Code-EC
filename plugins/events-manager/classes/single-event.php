@@ -5,24 +5,40 @@ global $gp_settings;
 ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-	<div id="content">
-
-		<!--Begin Image-->
-		<?php if(has_post_thumbnail() && $gp_settings['show_image'] == "Show" && get_post_type() != 'event' ) { ?>
-		
-			<div class="post-thumbnail<?php if($gp_settings['image_wrap'] == "Enable") { ?> wrap<?php } ?>">
-				<?php $image = vt_resize(get_post_thumbnail_id(), '', $gp_settings['image_width'], $gp_settings['image_height'], true); ?>
-				<img src="<?php echo $image[url]; ?>" alt="<?php if(get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true)) { echo get_post_meta(get_post_thumbnail_id(), '_wp_attachment_image_alt', true); } else { echo get_the_title(); } ?>" />			
-			</div>					
-							
-			<?php if($gp_settings['image_wrap'] == "Disable") { ?><div class="clear"></div><?php } ?>
-		
-		<?php } ?>
-		<!--End Image-->
-		
+	<?php $EM_Event = new EM_Event( $post->ID ); ?>
+	<div id="content">		
 		<div id="post-content">
-			<?php the_content(__('Read More &raquo;', 'gp_lang')); ?>
+			<div id="event-header">
+				<div class="columns twothirds first joint  text-left">
+					<div style="float:left; display:inline-block;">
+						<h2>
+							<?php echo $EM_Event->event_start_date; ?>
+							-
+							<?php echo $EM_Event->event_end_date; ?>
+						</h2>
+						<h4>#_EVENTTIMES</h4>
+					</div>
+					<div class="clear"></div>
+					<div id="event-content">
+						#_EVENTNOTES
+					</div>
+				</div>
+
+				<div class="columns onethird last joint  text-left">
+					<div id="event-booking">
+						{has_bookings}
+						<h3>Join This Event</h3>
+						#_BOOKINGFORM
+						{/has_bookings}
+
+						<h3>Who's Going?</h3>
+						<div style="margin-top: -35px; margin-left: 20px; border: 0;">
+							<?php do_shortcode('[eventauthor]'); ?>
+						</div>
+						#_ATTENDEES
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		<?php wp_link_pages('before=<div class="clear"></div><div class="wp-pagenavi post-navi">&pagelink=<span>%</span>&after=</div><div class="clear"></div>'); ?>		
