@@ -47,14 +47,6 @@ class JM_EventSingle
 	 */
 	public function event_author($atts, $content = null) 
 	{
-
-		// If Author Has Website
-		if(get_the_author_meta('user_url')) {
-		$website ='<a href="'.get_the_author_meta('user_url').'">'.__('Visit My Website', 'gp_lang').'</a> / ';
-		} else {
-		$website = '';
-		}
-	
 		$out .=
 	
 		'<div class="author-info event-author"><div class="author-info-fold"></div>'.

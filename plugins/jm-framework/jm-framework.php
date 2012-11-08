@@ -19,4 +19,5 @@ require_once( JM_PATH . '/classes/JM_EventManager.php');
 
 // Include for single event helpers
 require_once( JM_PATH . '/classes/JM_EventSingle.php');
+require_once( JM_PATH . '/classes/JM_Events.php');
 ?>
