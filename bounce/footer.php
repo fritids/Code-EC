@@ -48,10 +48,6 @@
 				
 			<?php } ?>
 			
-			<div id="copyright"><?php if($theme_footer_content) { echo stripslashes($theme_footer_content); } else { ?><?php _e('Copyright &copy;', 'gp_lang'); ?> <?php echo date('Y'); ?> <?php _e('Bounce. All rights reserved.', 'gp_lang'); ?><?php } ?></div>
-			
-			<div class="clear"></div>
-			
 		</div>
 		<!--End Footer-->
 		
