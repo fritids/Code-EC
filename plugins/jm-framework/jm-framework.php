@@ -3,7 +3,7 @@
 Plugin Name:  jm-framework
 Plugin URI:  http://onewebcentric.com
 Description:  Brings it all together
-Version:  .03
+Version:  .04
 Author URI:  http://onewebcentric.com
 Author:  Jon McDonald of OneWebCentric
 */
