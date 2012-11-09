@@ -28,11 +28,6 @@ background-image: -ms-linear-gradient(#6A8A87, #495F5B);
 /* Header Outer */
 #header-outer {
 background-color: #60807B;
-background-image: url(lib/images/header-bg-teal.png), -moz-linear-gradient(#60807B, #405451);
-background-image: url(lib/images/header-bg-teal.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#60807B), to(#405451));
-background-image: url(lib/images/header-bg-teal.png), -webkit-linear-gradient(#60807B, #405451);
-background-image: url(lib/images/header-bg-teal.png), -o-linear-gradient(#60807B, #405451);
-background-image: url(lib/images/header-bg-teal.png), -ms-linear-gradient(#60807B, #405451);
 }
 
 /* Logo */
@@ -92,7 +87,7 @@ border-top-color: #668583;
 
 /* Top Content */
 #top-content {
-color: #9FB7B7;
+color: #d8f6f6;
 border-color: #89A4A2;
 background-color: #6A8A87;
 background-image: -moz-linear-gradient(#6A8A87, #495F5B);
@@ -103,11 +98,11 @@ background-image: -ms-linear-gradient(#6A8A87, #495F5B);
 -pie-background: linear-gradient(#6A8A87, #495F5B);
 }
 #top-content.top-content-stripes {
-background-image: url(lib/images/top-content-bg.png), -moz-linear-gradient(#6A8A87, #495F5B);
-background-image: url(lib/images/top-content-bg.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6A8A87), to(#495F5B));
-background-image: url(lib/images/top-content-bg.png), -webkit-linear-gradient(#6A8A87, #495F5B);
-background-image: url(lib/images/top-content-bg.png), -o-linear-gradient(#6A8A87, #495F5B);
-background-image: url(lib/images/top-content-bg.png), -ms-linear-gradient(#6A8A87, #495F5B);
+background-image: url(/wp-content/uploads/top-content-bg-left.png), -moz-linear-gradient(#6A8A87, #495F5B);
+background-image: url(/wp-content/uploads/top-content-bg-left.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6A8A87), to(#495F5B));
+background-image: url(/wp-content/uploads/top-content-bg-left.png), -webkit-linear-gradient(#6A8A87, #495F5B);
+background-image: url(/wp-content/uploads/top-content-bg-left.png), -o-linear-gradient(#6A8A87, #495F5B);
+background-image: url(/wp-content/uploads/top-content-bg-left.png), -ms-linear-gradient(#6A8A87, #495F5B);
 }
 
 /* Post Meta */
@@ -243,7 +238,7 @@ background-color: #6A8A87;
 /*************************** Shortcodes: Text Boxes ***************************/
 
 #top-content .text-box {
-color: #9FB7B7;
+color: #d8f6f6;
 }
 
 

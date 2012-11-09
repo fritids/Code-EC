@@ -19,7 +19,7 @@ font-family: Helvetica, Arial, sans-serif;
 outline: none;
 }
 body {
-background: url(lib/images/page-bg.gif);
+background: #EEE;
 color: #333;
 margin: 0;
 padding: 0;
@@ -727,7 +727,7 @@ box-shadow: 0 0 5px rgba(0,0,0,0.1);
 -webkit-border-radius: 4px 4px 0 0;
 -moz-border-radius: 4px 4px 0 0;
 border-radius: 4px 4px 0 0;
-background-position: right bottom;
+background-position: left bottom;
 background-repeat: no-repeat;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
