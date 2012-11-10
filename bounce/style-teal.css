@@ -98,11 +98,7 @@ background-image: -ms-linear-gradient(#6A8A87, #495F5B);
 -pie-background: linear-gradient(#6A8A87, #495F5B);
 }
 #top-content.top-content-stripes {
-background-image: url(/wp-content/uploads/top-content-bg-left.png), -moz-linear-gradient(#6A8A87, #495F5B);
-background-image: url(/wp-content/uploads/top-content-bg-left.png), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6A8A87), to(#495F5B));
-background-image: url(/wp-content/uploads/top-content-bg-left.png), -webkit-linear-gradient(#6A8A87, #495F5B);
-background-image: url(/wp-content/uploads/top-content-bg-left.png), -o-linear-gradient(#6A8A87, #495F5B);
-background-image: url(/wp-content/uploads/top-content-bg-left.png), -ms-linear-gradient(#6A8A87, #495F5B);
+
 }
 
 /* Post Meta */

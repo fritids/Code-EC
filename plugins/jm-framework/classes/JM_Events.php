@@ -58,16 +58,22 @@ class JM_Events
 
 			// Output the data
 			$out .= '<div class="columns two first blank" style="border:none;">';
-			$out .= '<strong><a href="' . get_permalink( $EM_Event->ID )
+			$out .= '<h5><a href="' . get_permalink( $EM_Event->ID )
 			. '">' . $EM_Event->event_name
-			. '</a></strong><br />';
+			. '</a></h5>';
 			$out .= '' . self::get_date( $EM_Event )
 			. '<br />';
 			$out .= '' . self::get_location( $EM_Event );
 			$out .= '</div>';
 
-			$out .= '<div style="columns two last blank" style="border:none;">' . self::get_attendees_string( $EM_Event )
-			. '</div></div>';
+			$out .= '<div style="columns two last blank" style="border:none;">' . self::get_attendees_string( $EM_Event );
+			$out .= '<br />';
+			$out .= '<div style="float: right;">';
+			$out .= self::get_attendee_count( $EM_Event ) . ' attending.  
+			<a class="sc-button yellow medium" href="' . get_permalink( $EM_Event->ID );
+			$out .= '">RSVP »</a></div>
+			</div>
+			</div>';
 			$i++;
 		}
 
@@ -112,7 +118,7 @@ class JM_Events
 
 		// Get the unix time and convert it using PHP's date
 		$unix_time        = strtotime( $unformatted_date );
-		$formatted_date   = date( 'l, F Y', $unix_time );
+		$formatted_date   = date( 'l, F jS, Y', $unix_time );
 
 		return $formatted_date;
 	}
@@ -142,6 +148,17 @@ class JM_Events
 		return $people;
 	}
 
+	private function get_attendee_count( $EM_Event )
+	{
+		if( !$EM_Event )
+			return;
+
+		// Load the bookings, and retrieve the count, super simple!
+		$bookings = new EM_Bookings( $EM_Event );
+
+		return $bookings->get_booked_spaces();
+	}
+
 	/**
 	 * Returns a formatted string of user avatars for a given event
 	 *
@@ -168,9 +185,9 @@ class JM_Events
 				break;
 
 			// Add this user's avatar
-			$formatted_string .= '<div style="padding-right: 10px; display:inline-block; float:left;">';
+			$formatted_string .= '<div style="padding-right: 10px; display:inline-block; float:right;">';
 			$formatted_string .= '<a href="' . bp_core_get_userlink( $person->ID, false, true) . '">';
-			$formatted_string .= get_avatar($person->ID, 30, 'Mystery Man');
+			$formatted_string .= get_avatar($person->ID, 40, 'Mystery Man');
 			$formatted_string .= '</a>';
 			$formatted_string .= '</div>';
 
