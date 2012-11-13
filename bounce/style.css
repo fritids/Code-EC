@@ -2478,7 +2478,8 @@ display: block;
 #footer {
 display: inline-block;
 text-align: left;
-margin: 40px auto 0 auto;
+margin: 25px auto 0 auto;
+margin-bottom: 65px;
 width: 100%;
 text-shadow: 1px 1px 1px rgba(255,255,255,1);
 }
