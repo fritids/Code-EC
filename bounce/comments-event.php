@@ -62,8 +62,6 @@ $GLOBALS['comment'] = $comment; ?>
 
 	<?php if(have_comments()) { // If there are comments ?>
 		
-		<h3 class="comments"><?php comments_number(__('No Comments', 'gp_lang'), __('1 Comment', 'gp_lang'), __('% Comments', 'gp_lang')); ?></h3>
-		
 		<ol id="commentlist">
 			<?php wp_list_comments('callback=comment_template'); ?>
 		</ol>
@@ -92,7 +90,7 @@ $GLOBALS['comment'] = $comment; ?>
 			<!--Begin Respond-->
 			<div id="respond">
 			
-				<h3><?php comment_form_title(__('Leave a Reply', 'gp_lang'), __('Respond to %s', 'gp_lang')); ?> <?php cancel_comment_reply_link(__('Cancel Reply', 'gp_lang')); ?></h3>
+				<h4><?php comment_form_title(__('Join the Discussion', 'gp_lang'), __('Respond to %s', 'gp_lang')); ?> <?php cancel_comment_reply_link(__('Cancel Reply', 'gp_lang')); ?></h4>
 			
 				<?php if(get_option('comment_registration') && !$user_ID) { ?>
 			
@@ -112,10 +110,11 @@ $GLOBALS['comment'] = $comment; ?>
 					<?php } ?>
 						
 					<div id="event-comment">
-						<textarea name="comment" id="event-comment-box" cols="5" rows="7" tabindex="4"></textarea></p>
+						<textarea name="comment" id="event-comment-box" cols="5" rows="7" tabindex="4" placeholder="Leave a comment..."></textarea></p>
 						<div style="clear: both;"></div>
 						<input name="submit" type="submit" id="event-submit" tabindex="5" value="<?php _e('Post', 'gp_lang'); ?>" />
 					</div>
+					<div style="clear: both;"></div>
 	
 					<?php comment_id_fields(); ?>
 		

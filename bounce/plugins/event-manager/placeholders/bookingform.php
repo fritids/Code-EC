@@ -22,8 +22,13 @@ $can_book = is_user_logged_in() || (get_option('dbem_bookings_anonymous') && !is
 	?>
 	<?php if( is_object($EM_Booking) && !get_option('dbem_bookings_double') ): //Double bookings not allowed ?>
 		<p>
+			<?php $cancel_url = '';
+			$nonce = wp_create_nonce('booking_cancel'); ?>
+			<?php if( !in_array($EM_Booking->status, array(2,3)) && get_option('dbem_bookings_user_cancellation') && $EM_Event->get_bookings()->has_open_time() ){ ?>
+				<?php $cancel_url = em_add_get_params($_SERVER['REQUEST_URI'], array('action'=>'booking_cancel', 'booking_id'=>$EM_Booking->booking_id, '_wpnonce'=>$nonce)); ?>
+			<?php } ?>
 			<?php echo get_option('dbem_bookings_form_msg_attending'); ?>
-			<a href="<?php echo em_get_my_bookings_url(); ?>"><?php echo get_option('dbem_bookings_form_msg_bookings_link'); ?></a>
+			<a class="em-bookings-cancel" href="<?php echo $cancel_url; ?>" onclick="if( !confirm(EM.booking_warning_cancel) ){ return false; }"><?php echo get_option('dbem_bookings_form_msg_bookings_link'); ?></a>
 		</p>
 	<?php elseif( !$EM_Event->rsvp ): //bookings not enabled ?>
 		<p><?php echo get_option('dbem_bookings_form_msg_disabled'); ?></p>
@@ -34,6 +39,9 @@ $can_book = is_user_logged_in() || (get_option('dbem_bookings_anonymous') && !is
 	<?php else: ?>
 		<?php echo $EM_Notices; ?>
 		<?php if( count($EM_Tickets->tickets) > 0) : ?>
+			<?php if(is_user_logged_in()): ?>
+				<h5>You are currently not attending</h5>
+			<?php endif; ?>
 			<?php //Tickets exist, so we show a booking form. ?>
 			<form id='em-booking-form' class="em-booking-form" name='booking-form' method='post' action='<?php echo apply_filters('em_booking_form_action_url',$_SERVER['REQUEST_URI']); ?>'>
 			 	<input type='hidden' name='action' value='booking_add'/>
