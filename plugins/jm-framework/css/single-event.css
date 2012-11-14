@@ -3,22 +3,10 @@
 {
 	list-style: none;
 }
-
-.event-author
-{
-	width: 300px !important;
-}
-
-.event-author-wrapper
-{
-	margin-top: -35px; 
-	margin-left: 20px; 
-	border: 0;
-}
-
 #event-content
 {
 	padding: 0;
+	padding-right: 20px;
 }
 
 .event-dates
@@ -26,4 +14,56 @@
 	float:left; 
 	display:inline-block; 
 	padding: 0 !important;
+}
+
+.event-dates h4
+{
+	margin-bottom: 5px;
+}
+
+.em-booking-form-details
+{
+	width: 100% !important;
+	padding: 0 !important;
+}
+
+.em-booking
+{
+	margin-top: -15px;
+}
+
+.event-avatar
+{
+	width: 20%;
+	float: left;
+}
+
+.event-avatar-desc
+{
+	width: 75%;
+	float: left;
+	margin-left: 5px;
+}
+
+#event-comment
+{
+	width: 320px;
+	float: left;
+}
+
+#event-comment-box
+{
+	height: 100px;
+}
+
+#event-submit
+{
+	float: right;
+}
+
+.my-avatar
+{
+	float: left; 
+	width: 60px;
+	margin-top: 10px;
 }

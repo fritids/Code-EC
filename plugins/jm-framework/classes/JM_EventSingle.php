@@ -47,28 +47,15 @@ class JM_EventSingle
 	 */
 	public function event_author($atts, $content = null) 
 	{
-		$out .=
-	
-		'<div class="author-info event-author"><div class="author-info-fold"></div>'.
-	
-			'<a href="'.home_url( '/' ).'members/'.get_the_author_meta('user_login').'/profile/">'.get_avatar(get_the_author_id(), 50).'</a>
-	
-			<div class="author-meta">
-		
-				<div class="author-meta-top">
-					<h1 class="page-title">The Host</h1>
-					<div class="author-name"><a href="'.home_url( '/' ).'members/'.get_the_author_meta('user_login').'/profile/">'.get_the_author().'</a></div>'.
-				
-					'
-			
-				</div>
-			
-				<div class="author-desc">'.get_the_author_meta('description').'</div>
-		
-			</div>
-		
-		</div>
-		';
+		$out .= '<div class="event-avatar">';
+		$out .= '<a href="' . bp_core_get_userlink( get_the_author_meta('ID'), false, true) . '">';
+		$out .= get_avatar(get_the_author_id(), 50) . '</a>';
+		$out .= '</div>';
+		$out .= '<div class="event-avatar-desc">';
+		$out .= get_the_author_meta('first_name') . ' ' . get_the_author_meta('last_name');
+		$out .= '<br />';
+		$out .= 'HOST';
+		$out .= '</div>';
 				
     	return $out;
 	}

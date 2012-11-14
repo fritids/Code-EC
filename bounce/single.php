@@ -31,7 +31,7 @@ global $gp_settings;
 			<?php the_tags('<div class="post-meta post-tags"><span class="tag-icon">', ', ', '</span></div>'); ?>
 		<?php } ?>
 		
-		<?php if($gp_settings['author_info'] == "0") { ?>			
+		<?php if($gp_settings['author_info'] == "0" && get_post_type() != 'event') { ?>			
 			<?php echo do_shortcode('[author]'); ?>				
 		<?php } ?>
 		
@@ -39,7 +39,11 @@ global $gp_settings;
 			<?php echo do_shortcode('[related_posts id="" cats="" images="true" image_width="'.$theme_post_related_image_width.'" image_height="'.$theme_post_related_image_height.'" image_wrap="false" cols="3" per_page="3" link="both" orderby="random" order="desc" offset="0" content_display="excerpt" excerpt_length="0" title="true" title_size="12" meta="false" read_more="false" pagination="false" preload="false"]'); ?>			
 		<?php } ?>					
 		
-		<?php comments_template(); ?>
+		<?php if(get_post_type() != 'event'): ?>
+			<?php comments_template(); ?>
+		<?php else: ?>
+			<?php comments_template('/comments-event.php'); ?>
+		<?php endif; ?>
 	
 	</div>
 	

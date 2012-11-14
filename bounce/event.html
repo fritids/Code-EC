@@ -2,14 +2,12 @@
 <div id="event-header">
 	<div class="columns twothirds first joint  text-left">
 		<div class="event-dates">
-			<h2>#_EVENTDATES</h2>
+			<h4>#_EVENTDATES</h4>
 			<h4>#_EVENTTIMES</h4>
+			<h4>#_LOCATIONNAME</h4>
 		</div>
 		<div class="clear" style="padding: 0;"></div>
 		<div id="event-content">
-			<div class="post-thumbnail">
-				#_EVENTIMAGE
-			</div>
 			<div class="clear" style="padding: 0;"></div>
 			#_EVENTNOTES
 		</div>
@@ -18,11 +16,13 @@
 	<div class="columns onethird last joint  text-left">
 		<div id="event-booking">
 			{has_bookings}
-			<h3>Join This Event</h3>
 			#_BOOKINGFORM
 			{/has_bookings}
-
-			<h3>Who's Going?</h3>
+			<hr />
+			<p>
+				#_BOOKEDSPACES attending<br />
+				#_AVAILABLESPACES spots left
+			</p>
 			<div class="event-author-wrapper">
 				[eventauthor]
 			</div>

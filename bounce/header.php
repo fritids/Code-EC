@@ -128,7 +128,7 @@
 					
 					<?php if($gp_settings['title'] == "Show") { ?>
 					
-						<div class="left">
+						<div class="left" <?php if(get_post_type() == 'event'): ?>style="width:100%;"<?php endif;?>>
 						
 							<h1 class="page-title">
 							<?php if(is_single() OR is_page()) { ?>
@@ -163,7 +163,7 @@
 					
 					<?php } ?>
 					
-					<?php if($gp_settings['search'] == "Show" OR $gp_settings['breadcrumbs'] == "Show") { ?>
+					<?php if(($gp_settings['search'] == "Show" OR $gp_settings['breadcrumbs'] == "Show") && get_post_type() != 'event' ) { ?>
 					
 						<div class="right">
 							

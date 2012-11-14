@@ -12,24 +12,30 @@ if( count($EM_Bookings->bookings) > 0 ){
 		if($EM_Booking->status == 1 && !in_array($EM_Booking->get_person()->ID, $people) ){
 			$people[] = $EM_Booking->get_person()->ID;
 			$EM_Person = $EM_Booking->get_person();
+			$user      = get_user_meta( $EM_Person->ID );
 			?>
-			<div>
-				<a href="<?php echo bloginfo('siteurl') . '/members/' . strtolower($user_info->user_login); ?>">
+			<div style="clear: both;"></div>
+			<div class="event-avatar">
+				<a href="<?php echo bp_core_get_userlink( $EM_Person->ID, false, true) ?>">
 					<?php echo get_avatar($EM_Person->ID, 50); ?> 
-					<br />
-					<?php echo $EM_Person->get_name(); ?>
 				</a>
+			</div>
+			<div class="event-avatar-desc">
+					<?php echo $user['first_name'][0] . ' ' . $user['last_name'][0]; ?>
 			</div> 
 		<?php
 		}elseif($EM_Booking->status == 1 && $guest_bookings && $EM_Booking->get_person()->ID == $guest_booking_user ){
 			$EM_Person = $EM_Booking->get_person();
+			$user      = get_user_meta( $EM_Person->ID );
 			?>
-			<div>
-				<a href="<?php echo bloginfo('siteurl') . '/members/' . strtolower($user_info->user_login); ?>">
+			<div style="clear: both;"></div>
+			<div class="event-avatar">
+				<a href="<?php echo bp_core_get_userlink( $EM_Person->ID, false, true) ?>">
 					<?php echo get_avatar($EM_Person->ID, 50); ?> 
-					<br />
-					<?php echo $EM_Person->get_name(); ?>
 				</a>
+			</div>
+			<div class="event-avatar-desc">
+					<?php echo $user['first_name'][0] . ' ' . $user['last_name'][0]; ?>
 			</div> 
 		<?php
 		}
