@@ -80,13 +80,27 @@
 			<div id="header-right">
 				
 				<div id="nav">
-				
-					<?php wp_nav_menu('sort_column=menu_order&container=ul&theme_location=header-nav&fallback_cb=null'); ?>
 					
-					<?php wp_nav_menu(array('theme_location' => 'header-nav', 'walker' => new gp_mobile_menu(), 'items_wrap' => '<select class="mobile-menu">%3$s</select>', 'container' => '', 'menu_class' => 'mobile-menu', 'sort_column' => 'menu_order', 'fallback_cb' => 'null')); ?>
+					<?php 
+					$url = (is_user_logged_in()) ? bp_core_get_userlink( get_current_user_id(), false, true) : bp_get_signup_page(false);
+					$custom_tag = (is_user_logged_in()) ? 'Profile' : 'Join';
+					$dynamic_link = '<li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="' . $url . '">' . $custom_tag . '</a></li>';
+					$dynamic_drop = '<option value="' . $url . '" class="menu-item menu-item-type-post_type menu-item-object-page">' . $custom_tag . '</option>';
+					$jm_links = array(
+						'sort_column' => 'menu_order',
+						'theme_location' => 'header-nav',
+						'fallback_cb' => null,
+						'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s' . $dynamic_link . '</ul>',
+						'container' => ''
+						);
+					?>
+
+					<?php wp_nav_menu($jm_links); ?>
+					
+					<?php wp_nav_menu(array('theme_location' => 'header-nav', 'walker' => new gp_mobile_menu(), 'items_wrap' => '<select class="mobile-menu">%3$s' . $dynamic_drop . '</select>', 'container' => '', 'menu_class' => 'mobile-menu', 'sort_column' => 'menu_order', 'fallback_cb' => 'null')); ?>
 										
 					<span id="social-icons">
-						<?php if(is_user_logged_in()) { ?><a class="dribble-icon" style="width: 40px; color:#FFF; opacity:1;" href="<?php echo bp_core_get_userlink( get_current_user_id(), false, true) ?>">Profile</a><?php } else {?><a class="dribble-icon" style="width: 40px; color:#FFF; opacity:1;" href="<?php echo bp_get_signup_page(false); ?>">Join</a><?php } ?>
+						
 						<?php if($theme_rss_button == "1") {} else { ?><a href="<?php if($theme_rss) { ?><?php echo($theme_rss); ?><?php } else { ?><?php bloginfo('rss2_url'); ?><?php } ?>" class="rss-icon" title="<?php _e('RSS Feed', 'gp_lang'); ?>" rel="nofollow" target="_blank"></a><?php } ?>
 						
 						<?php if($theme_twitter) { ?><a href="<?php echo $theme_twitter; ?>" class="twitter-icon" title="<?php _e('Twitter', 'gp_lang'); ?>" rel="nofollow" target="_blank"></a><?php } ?>

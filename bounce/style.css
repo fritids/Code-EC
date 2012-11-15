@@ -137,7 +137,7 @@ line-height: 12px;
 padding: 7px;
 margin: 0;
 color: #000;
-border: 1px solid #eee;
+border: 1px solid #BBB;
 background: #fff;
 -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
 -moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
@@ -152,7 +152,7 @@ box-sizing: border-box;
 input:focus,
 textarea:focus,
 input[type="password"]:focus {
-border: 1px solid #999;
+border: 1px solid #6A8A87;
 }
 textarea {
 line-height: 19px;

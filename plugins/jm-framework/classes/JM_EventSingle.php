@@ -47,13 +47,17 @@ class JM_EventSingle
 	 */
 	public function event_author($atts, $content = null) 
 	{
+		$first_name = bp_get_profile_field_data('field=First Name&user_id=' . get_the_author_id());
+		$last_name  = bp_get_profile_field_data('field=Last Name&user_id=' . get_the_author_id());
 		$out .= '<div class="event-avatar">';
-		$out .= '<a href="' . bp_core_get_userlink( get_the_author_meta('ID'), false, true) . '">';
+		$out .= '<a href="' . bp_core_get_userlink( get_the_author_id(), false, true) . '">';
 		$out .= get_avatar(get_the_author_id(), 50) . '</a>';
 		$out .= '</div>';
 		$out .= '<div class="event-avatar-desc">';
-		$out .= get_the_author_meta('first_name') . ' ' . get_the_author_meta('last_name');
+		$out .= '<a href="' . bp_core_get_userlink( get_the_author_id(), false, true) . '">';
+		$out .= $first_name . ' ' . $last_name;
 		$out .= '<br />';
+		$out .= '</a>';
 		$out .= 'HOST';
 		$out .= '</div>';
 				

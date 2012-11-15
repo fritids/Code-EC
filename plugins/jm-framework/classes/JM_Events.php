@@ -142,6 +142,9 @@ class JM_Events
 		// Loop through and get all the people
 		foreach( $bookings->bookings as $booking )
 		{
+			if( $booking->get_status() != 'Approved' )
+				continue;
+			
 			$people[] = $booking->get_person();
 		}
 

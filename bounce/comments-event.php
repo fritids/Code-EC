@@ -31,9 +31,13 @@ $GLOBALS['comment'] = $comment; ?>
 		<div class="comment-body">
 			
 			<div class="comment-author">
-				<?php $aID = get_comment()->user_id; ?>
-				<?php $user = get_user_meta( $aID ); ?>
-				<?php echo $user['first_name'][0] . ' ' . $user['last_name'][0]; ?>
+				<?php $aID        = get_comment()->user_id; ?>
+				<?php $user       = get_user_meta( $aID ); ?>
+				<?php $first_name = bp_get_profile_field_data('field=First Name&user_id=' . $aID); ?>
+				<?php $last_name  = bp_get_profile_field_data('field=Last Name&user_id=' . $aID); ?>
+				<a href="<?php echo bp_core_get_userlink( get_comment()->user_id, false, true) ?>">
+				<?php echo $first_name . ' ' . $last_name; ?>
+				</a>
 			</div>
 			
 			<div class="comment-date">

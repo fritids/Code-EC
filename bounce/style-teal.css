@@ -2,10 +2,15 @@
 
 /* Text Styling */
 a {
-color: #9FB7B7;
+color: #44857a;
 }
 a:hover {
-color: #4DB3A2;
+color: #459f90;
+text-decoration: underline;
+}
+
+#nav a:hover {
+text-decoration: none;
 }
 
 /* Form Styling */
