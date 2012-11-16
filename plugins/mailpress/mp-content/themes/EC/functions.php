@@ -1,0 +1,1 @@
+<?php if (!class_exists('EC_theme_2012')) require_once('EC_theme_2012.class.php');

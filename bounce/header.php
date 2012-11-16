@@ -34,7 +34,7 @@
 			
 				<?php if(is_user_logged_in()) { ?>	
 									
-					<a href="<?php echo wp_logout_url(esc_url($_SERVER['REQUEST_URI'])); ?>" class="bp-logout-link"><?php _e('Logout', 'gp_lang'); ?></a>
+					<a href="<?php echo wp_logout_url(home_url()); ?>" class="bp-logout-link"><?php _e('Logout', 'gp_lang'); ?></a>
 
 				<?php } else { ?>
 					

@@ -3,7 +3,7 @@
 Plugin Name:  jm-framework
 Plugin URI:  http://onewebcentric.com
 Description:  Brings it all together
-Version:  .04
+Version:  .05
 Author URI:  http://onewebcentric.com
 Author:  Jon McDonald of OneWebCentric
 */
@@ -20,4 +20,7 @@ require_once( JM_PATH . '/classes/JM_EventManager.php');
 // Include for single event helpers
 require_once( JM_PATH . '/classes/JM_EventSingle.php');
 require_once( JM_PATH . '/classes/JM_Events.php');
+
+// Include for BuddyPress helpers
+require_once( JM_PATH . '/classes/JM_BuddyPress.php');
 ?>
